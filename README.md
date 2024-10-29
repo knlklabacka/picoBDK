@@ -1,19 +1,18 @@
 # pico-breadboard-kit
 For pico breadboard kit 's 2.8 inch touch screen 
 
-## How to use it 
 
-* Download and install Thonny IDE via https://thonny.org
-* Install MicroPython firmware to Raspberry Pi Pico.  
+## Download and install Thonny IDE via https://thonny.org
+## Install MicroPython firmware to Raspberry Pi Pico.  
 	https://docs.sunfounder.com/projects/thales-kit/en/latest/micropython/python_start/install_micropython_to_pico.html
 	
-	* Press and hold the BOOTSEL button 
-	* Connect the Pico to a computer with a Micro USB cable
-	* Release the BOOTSEL button when the Pico appears as a Mass Storage Device called RPI-RP2
-	* Select Install Micropython from the interpreter selection button 
-	* Select Raspberry Pi.Pico/Pico H in the Micropython variant
-	* Click Install
-	* Wait for the installation to finish
+	### Press and hold the BOOTSEL button 
+	### Connect the Pico to a computer with a Micro USB cable
+	### Release the BOOTSEL button when the Pico appears as a Mass Storage Device called RPI-RP2
+	### Select Install Micropython from the interpreter selection button 
+	### Select Raspberry Pi.Pico/Pico H in the Micropython variant
+    ### Click Install
+	### Wait for the installation to finish
 	
 * Download or clone the geeekpi code
 	a. git clone https://github.com/geeekpi/picoBDK
@@ -27,7 +26,7 @@ For pico breadboard kit 's 2.8 inch touch screen
 	
 	
 * You need to make sure that the Pin numbers are correct for your device.
-	a. I had to change the orginal code from
+	a. I had to change the original code from
 	    ```
 		TFT_CLK_PIN = const(6)
 		TFT_MOSI_PIN = const(7)
