@@ -32,13 +32,13 @@ CENTER_Y = int(SCR_WIDTH/2)
 CENTER_X = int(SCR_HEIGHT/2)
 
 print(os.uname())
-TFT_CLK_PIN = const(6)
-TFT_MOSI_PIN = const(7)
+TFT_CLK_PIN = const(2)
+TFT_MOSI_PIN = const(3)
 TFT_MISO_PIN = const(4)
 
-TFT_CS_PIN = const(13)
-TFT_RST_PIN = const(14)
-TFT_DC_PIN = const(15)
+TFT_CS_PIN = const(5)
+TFT_RST_PIN = const(7)
+TFT_DC_PIN = const(6)
 
 
 spi = SPI(
@@ -71,8 +71,8 @@ countTitleSize = len(countTitle)
 
 display.chars(countTitle, 0, 0)
 
-addPin = Pin(17, Pin.IN) #Connect a button to pin 17
-subtractPin = Pin(16, Pin.IN) #Connect a button to pin 16
+addPin = Pin(15, Pin.IN) #Connect a button to pin 15
+subtractPin = Pin(14, Pin.IN) #Connect a button to pin 14
 addButton = button()
 subtractButton = button()
 

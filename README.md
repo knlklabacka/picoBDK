@@ -25,7 +25,7 @@ For pico breadboard kit 's 2.8 inch touch screen
 	* i.e.  picoBDK-main/examples/button_counter/main.py
 	
 	
-## You need to make sure that the Pin numbers are correct for your device.
+You need to make sure that the Pin numbers are correct for your device.
 	* I had to change the original code from
 
 	    ```
