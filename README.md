@@ -18,8 +18,8 @@ For pico breadboard kit 's 2.8 inch touch screen
 	### git clone https://github.com/geeekpi/picoBDK
 	
 ## Copy the contents of the lib directory to the root of the Raspberry Pi Pico device
-cd into picoBDK-main/lib
-copy glcdfont.py, ili934xnew.py, tt14.py, tt24.py, tt32.py
+* cd into picoBDK-main/lib
+* copy glcdfont.py, ili934xnew.py, tt14.py, tt24.py, tt32.py
 	
 ## Copy the main.py from any of the three example folders.
 	### i.e.  picoBDK-main/examples/button_counter/main.py
