@@ -14,19 +14,20 @@ For pico breadboard kit 's 2.8 inch touch screen
     ### Click Install
 	### Wait for the installation to finish
 	
-* Download or clone the geeekpi code
-	a. git clone https://github.com/geeekpi/picoBDK
+## Download or clone the geeekpi code
+	### git clone https://github.com/geeekpi/picoBDK
 	
-* Copy the contents of the lib directory to the root of the Raspberry Pi Pico device
-	a. cd into picoBDK-main/lib
-	b. copy glcdfont.py, ili934xnew.py, tt14.py, tt24.py, tt32.py
+## Copy the contents of the lib directory to the root of the Raspberry Pi Pico device
+	### cd into picoBDK-main/lib
+	### copy glcdfont.py, ili934xnew.py, tt14.py, tt24.py, tt32.py
 	
-* Copy the main.py from any of the three example folders.
-	a. i.e.  picoBDK-main/examples/button_counter/main.py
+## Copy the main.py from any of the three example folders.
+	### i.e.  picoBDK-main/examples/button_counter/main.py
 	
 	
-* You need to make sure that the Pin numbers are correct for your device.
-	a. I had to change the original code from
+## You need to make sure that the Pin numbers are correct for your device.
+	### I had to change the original code from
+
 	    ```
 		TFT_CLK_PIN = const(6)
 		TFT_MOSI_PIN = const(7)
@@ -40,6 +41,7 @@ For pico breadboard kit 's 2.8 inch touch screen
 		.
 		addPin = Pin(17, Pin.IN) #Connect a button to pin 17
 		subtractPin = Pin(16, Pin.IN) #Connect a button to pin 16
+
 		```
 	
 		TO
@@ -57,7 +59,8 @@ For pico breadboard kit 's 2.8 inch touch screen
 		.
 		addPin = Pin(15, Pin.IN) #Connect a button to pin 15
 		subtractPin = Pin(14, Pin.IN) #Connect a button to pin 14
+
 		```
 
-	b. Save the file onto the Raspberry Pi Pico device
+	### Save the file onto the Raspberry Pi Pico device
 	
